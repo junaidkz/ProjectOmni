@@ -20,15 +20,17 @@ for i in open("new.txt"):
 	r=map(str,i.split())
 	#if(sys.argv[-1]!=sys.argv[0]):
 	#	var=str(sys.argv[-1])
-	#else:	var='-'
+	#else:	var='-
 	size=50
 	for x in r:
-                url="http://www.codechef.com/users/" +x
+                
+		url="http://www.codechef.com/users/" +x
                 content=urllib2.urlopen(url).read()
                 soup = BeautifulSoup(content)
                 beauty(var +'\t\t',2)
                 print x,
-                beauty("\t\t",2)
+                if(len(x)<=6): beauty('\t\t\t',2)
+		else:	beauty("\t\t",2)
                 y=soup.find_all('hx')
                 for links in y:
                         k=links.get_text()
