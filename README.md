@@ -1,3 +1,8 @@
+Prequisites:
+                Beautiful soup 4.
+                python
+              
+
 1.Simple Rank Scraper for Codechef Users.
 
 2.simply write all the usernames in new.txt file.
