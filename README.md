@@ -1,7 +1,9 @@
-Prequisites:
-                Beautiful soup 4.
-                python
-              
+﻿Prequisites:
+                Beautiful soup 4
+                python 2.7
+
+
+How to Use:
 
 1.Simple Rank Scraper for Codechef Users.
 
@@ -9,4 +11,5 @@ Prequisites:
 
 3.Then run the program as python sauseFinal.py.
 
-**************For different designs run as python sauseFinal.py 'any alphanumeric character with quotes' ****************
+4.For different designs run as python sauseFinal.py 
+    'any alphanumeric character with quotes' 

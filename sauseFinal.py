@@ -16,7 +16,7 @@ print var+'\t\t   \t \t\tCountry Global Global Country Global Country\t\t' +var
 beauty(var,size)
 print
 
-for i in open("new.txt"):
+for i in open("username.txt"):
 	r=map(str,i.split())
 	#if(sys.argv[-1]!=sys.argv[0]):
 	#	var=str(sys.argv[-1])
